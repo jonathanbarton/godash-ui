@@ -33,15 +33,38 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      <div class="one-half column">
+        <h4>Environment Update</h4>
+        <label for="environment">Environment:</label>
+        <input class="u-full-width" type="text" placeholder="" id="environment">
+        <label for="summary">Summary:</label>
+        <input class="u-full-width" type="text" placeholder="" id="summary">
+        <label for="description">Description:</label>
+        <input class="u-full-width" type="text" placeholder="" id="description">
       </div>
+    </div>
+    <div class="row">
+      <button class="button-primary">Submit</button>
+    </div>
+    <div class="row">
+      <div class="one-half column">
+        <h4>Event Update</h4>
+        <label for="event-environment">Date:</label>
+        <input class="u-full-width" type="text" placeholder="" id="event-environment">
+        <label for="event-summary">Summary:</label>
+        <input class="u-full-width" type="text" placeholder="" id="event-summary">
+        <label for="event-description">Description:</label>
+        <input class="u-full-width" type="text" placeholder="" id="event-description">
+      </div>
+    </div>
+    <div class="row">
+      <button class="button-primary">Submit</button>
     </div>
   </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
   <script>
     // Initialize Firebase
